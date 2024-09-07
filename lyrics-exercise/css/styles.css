@@ -1,0 +1,59 @@
+body {
+    font-family: "futura-pt", sans-serif;
+    color: white; 
+    background-image: url("https://www.whatsonnetwork.co.uk/uploads/800x600/66fa23c81ff9be404fb4dfa48e28a39d.jpg");
+    background-size: 100vw 150vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.headings {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+    margin-left: 150px;
+    padding: 50px;
+    background-color: #3e3b3e;
+}
+
+h1 {
+    font-size: 150px;
+    margin-top: 20px;
+    margin-bottom: 0.02rem;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 50px;
+}
+
+img {
+    width: 550px;
+    height: auto;
+    margin-top: 200px;
+    margin-right: 150px;
+    display: inline-block;
+    margin-block-start: 2.25em;
+    margin-block-end: 5.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 75px;
+    border: 20px solid #3e3b3e;
+}
+
+.lyrics {
+    width: 25%;
+    text-align: center;
+    margin-left: 525px;
+    margin-right: auto;
+    line-height: 1;
+    background-color: #3e3b3e;
+    padding: 20px 20px;
+    padding-bottom: 30px;
+}
+
+footer {
+    padding: 20px;
+    padding-top: 30px;
+    text-align: right;
+}
