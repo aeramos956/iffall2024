@@ -62,7 +62,7 @@ section.LetterSpacing p.Wide {
 }
 
 section.LetterSpacing p.Narrow {
-    letter-spacing: narrow;
+    letter-spacing: -0.06em;
 }
 
 section.TextDecoration p.None {
