@@ -1,0 +1,32 @@
+html {
+    background-color: pink;
+    margin: 100px;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+section.intro {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+section.recipe {
+    margin-bottom: 90px;
+}
+
+img {
+    max-height: 300px;
+}
+
+.gallery-container {
+    display: inline;
+    width: auto;
+    margin-left: 9%;
+}
