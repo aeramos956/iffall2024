@@ -1,0 +1,132 @@
+html {
+    background-color: pink;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+header {
+    padding: 8vw;
+    background-image: url(images/cortadillo-main.jpg);
+    background-size: cover;
+    color: white;
+}
+
+ul {
+    margin-bottom: 40px;
+}
+
+.quick-info ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4vw;
+}
+
+header li {
+    list-style-type: none;
+}
+
+.intro {
+    padding: 2vw;
+    color:black;
+    background-color: rgb(255, 224, 229);
+    text-align: center;
+    margin: 3.5vw;
+    font-size: 17px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    /* font-size: 3vw; */
+}
+
+h3 {
+    font-size: 20px;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.ingredients-row, .instructions-row-part-1, .instructions-row-part-2, .instructions-row-part-3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 3vw;
+    padding: 3vw;
+    max-width: 750px;
+    background-color: rgb(255, 224, 229);
+}
+
+.final-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 3vw;
+    /* width: 375px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.final-info .storing,.nutrition {
+    background-color:rgb(255, 224, 229);
+    padding: 3vw;
+    margin: 2vw;
+}
+
+.storing h2, .nutrition h2 {
+    text-align: center;
+}
+
+@media (min-width: 750px) {
+    .final-info {
+        display: grid;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 850px) {
+    h2 {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    
+    .ingredients-row, .instructions-row-part-1, .instructions-row-part-2, .instructions-row-part-3 {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .ingredients, .instructions {
+        width: 60%;
+    }
+
+    ul {
+        margin-bottom: 40px;
+        margin-right: 10px;
+    }
+
+    section img {
+        width: 50%;
+    }
+
+    .final-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin: 0 auto;
+        /* width: 375px; */
+        justify-content: center;
+        align-items: center;
+    }
+}
+
