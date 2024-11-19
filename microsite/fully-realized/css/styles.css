@@ -1,0 +1,374 @@
+html {
+    font-family: "miller-headline", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+main {
+    margin: 20px;
+    padding-bottom: 70px;
+}
+
+/******************MENU******************/
+
+header {
+    background-color: rgb(86, 86, 86);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    /* align-items; center; */
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.site-title {
+    /* display: block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 50px;
+    padding-top: 5px;
+    color: white;
+    /* position: absolute; */
+}
+
+.menu {
+    /* position: fixed; */
+    display: flex;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    margin: auto;
+    /* right: 20px;
+    top: 10px;
+    text-align: right;
+    font-size: 24px;
+    padding-top: 8px; */
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width: 650px) {
+    
+    .menu a {
+        font-size: 3vw;
+    }
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.menu li {
+    width: 20%;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/******************LANDING******************/
+
+.landing-title {
+    padding-top: 70px;
+    font-size: 90px;
+    text-align: center;
+}
+
+.landing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 75%;
+    padding: 7.5px;
+}
+
+.landing-photo {
+    max-width: 500px;
+    max-height: 500px;
+    /* margin-left: 15%; */
+}
+
+.intro-text {
+    /* margin-right: 15%; */
+    padding: 5%;
+    font-weight: 400;
+    font-size: 28px;
+    max-width: 500px;
+}
+
+/******************TIMELINE******************/
+
+.timeline-intro {
+    text-align: center;
+    font-size: 55px;
+}
+
+.timeline {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    /* margin-bottom: 50px; */
+}
+
+.timeline li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.timeline a {
+    text-decoration: none;
+}
+
+/******************FOOTER******************/
+
+.footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* margin: 0 auto; */
+    bottom: 0;
+}
+
+.footer > div {
+    background-color: rgb(86, 86, 86);
+    width: 50%;
+}
+
+.footer p {
+    color: white;
+    font-weight: 400;
+}
+
+.designers {
+    position: absolute;
+    left: 0;
+}
+
+.designers p {
+    padding-left: 35px;
+}
+
+.sources {
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+
+.sources p {
+    padding-right: 35px;
+}
+
+.sources a {
+    text-decoration: underline;
+    color: white;
+}
+
+@media (max-width: 750px) {
+
+    .footer > div {
+        background-color: rgb(86, 86, 86);
+        width: 50%;
+        padding-bottom: 19px;
+    }
+}
+
+/******************INDEX************************/
+
+header a.site-title#index {
+    display: none;
+}
+
+/* @media (max-width: 660px) {
+    .landing-title {
+        margin: 0 auto;
+    }
+} */
+
+@media (max-width: 1220px) {
+
+    section.landing {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .landing-photo {
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1220px) {
+
+    section.landing {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .landing-photo {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+    .intro-text {
+        font-size: 30px;
+        max-width: 750px;
+    }
+}
+
+/******************BEGINNINGS******************/
+
+html#beginnings {
+    /* background-color:rgb(130, 208, 182); */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#82d0b6+18,1e5799+100 */
+    background: #82d0b6; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #82d0b6 18%, #1e5799 100%); /* FF3.6-15 */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(18%,#82d0b6), color-stop(100%,#1e5799)); /* Chrome4-9,Safari4-5 */
+    background: -webkit-linear-gradient(-45deg,  #82d0b6 18%,#1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+    background: -o-linear-gradient(-45deg,  #82d0b6 18%,#1e5799 100%); /* Opera 11.10-11.50 */
+    background: -ms-linear-gradient(-45deg,  #82d0b6 18%,#1e5799 100%); /* IE10 preview */
+    background: linear-gradient(135deg,  #82d0b6 18%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82d0b6', endColorstr='#1e5799',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.landing-title#beginnings {
+    color: white;
+    padding-top: 150px; 
+}
+
+.intro-text#beginnings {
+    font-size: 20px;
+    color: white;
+}
+
+/******************TRANSITION******************/
+
+html#transition {
+    background-color:rgb(165, 62, 62);
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a43e3f+0,162023+100 */
+    background: #a43e3f; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #a43e3f 0%, #162023 100%); /* FF3.6-15 */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#a43e3f), color-stop(100%,#162023)); /* Chrome4-9,Safari4-5 */
+    background: -webkit-linear-gradient(-45deg,  #a43e3f 0%,#162023 100%); /* Chrome10-25,Safari5.1-6 */
+    background: -o-linear-gradient(-45deg,  #a43e3f 0%,#162023 100%); /* Opera 11.10-11.50 */
+    background: -ms-linear-gradient(-45deg,  #a43e3f 0%,#162023 100%); /* IE10 preview */
+    background: linear-gradient(135deg,  #a43e3f 0%,#162023 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a43e3f', endColorstr='#162023',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.landing-title#transition {
+    color: white;
+    padding-top: 150px;
+}
+
+.intro-text#transition {
+    font-size: 20px;
+    color: white;
+}
+
+/******************HEIGHT******************/
+
+html#height {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f6e1ae+0,c05396+100 */
+    background: #f6e1ae; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #f6e1ae 0%, #c05396 100%); /* FF3.6-15 */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f6e1ae), color-stop(100%,#c05396)); /* Chrome4-9,Safari4-5 */
+    background: -webkit-linear-gradient(-45deg,  #f6e1ae 0%,#c05396 100%); /* Chrome10-25,Safari5.1-6 */
+    background: -o-linear-gradient(-45deg,  #f6e1ae 0%,#c05396 100%); /* Opera 11.10-11.50 */
+    background: -ms-linear-gradient(-45deg,  #f6e1ae 0%,#c05396 100%); /* IE10 preview */
+    background: linear-gradient(135deg,  #f6e1ae 0%,#c05396 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e1ae', endColorstr='#c05396',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.landing-title#height{
+    color: white;
+    padding-top: 150px; 
+}
+
+.intro-text#height {
+    font-size: 20px;
+    color: white;
+}
+
+/******************RETURN******************/
+
+html#return {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4622f+0,433939+100 */
+    background: #b4622f; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #b4622f 0%, #433939 100%); /* FF3.6-15 */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#b4622f), color-stop(100%,#433939)); /* Chrome4-9,Safari4-5 */
+    background: -webkit-linear-gradient(-45deg,  #b4622f 0%,#433939 100%); /* Chrome10-25,Safari5.1-6 */
+    background: -o-linear-gradient(-45deg,  #b4622f 0%,#433939 100%); /* Opera 11.10-11.50 */
+    background: -ms-linear-gradient(-45deg,  #b4622f 0%,#433939 100%); /* IE10 preview */
+    background: linear-gradient(135deg,  #b4622f 0%,#433939 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4622f', endColorstr='#433939',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.landing-title#return{
+    color: white;
+    padding-top: 150px; 
+}
+
+.intro-text#return {
+    font-size: 20px;
+    color: white;
+}
+
+/******************ERAS******************/
+
+html#eras {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fe9086+0,8e52c2+100 */
+    background: #fe9086; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #fe9086 0%, #8e52c2 100%); /* FF3.6-15 */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#fe9086), color-stop(100%,#8e52c2)); /* Chrome4-9,Safari4-5 */
+    background: -webkit-linear-gradient(-45deg,  #fe9086 0%,#8e52c2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: -o-linear-gradient(-45deg,  #fe9086 0%,#8e52c2 100%); /* Opera 11.10-11.50 */
+    background: -ms-linear-gradient(-45deg,  #fe9086 0%,#8e52c2 100%); /* IE10 preview */
+    background: linear-gradient(135deg,  #fe9086 0%,#8e52c2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe9086', endColorstr='#8e52c2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.landing#eras {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.landing-title#eras {
+    color: white;
+    padding-top: 150px;
+    margin-bottom: 0px; 
+}
+
+.landing#eras .intro-text#eras {
+    max-width: 1000px;
+}
+
+.intro-text#eras {
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+}
+
+.landing#eras .outro-text#eras {
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+    justify-content: center;
+    padding-bottom: 50px;
+}
