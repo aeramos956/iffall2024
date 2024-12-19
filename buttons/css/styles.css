@@ -1,0 +1,427 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+/* SPOTIFY */
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+/* AMAZON */
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+/* TWITTER */
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+/* INDIEGOGO */
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+/* IDEO */
+
+a#btn_ideo {
+    display: inline-block;
+    font-family: "Lexend", sans-serif;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    text-decoration: none;
+    font-size: 40px;
+    color: #000;
+    letter-spacing: -3.5px;
+    transition: all .5s;
+}
+
+a#btn_ideo:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#71ccc8+0,975d40+51,f0662f+100 */
+    background: linear-gradient(135deg,  #71ccc8 0%,#975d40 51%,#f0662f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 3.5px;
+    transition: all .5s;
+}
+
+/* APPLE */
+
+a#btn_apple {
+    display: block;
+    /* position: relative; */
+    font-family: "zeitung-pro-variable", sans-serif;
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    color:#000;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 0;
+    text-align: center;
+    transition: all .5s;
+    /* -webkit-transition: all .5s ease; */
+}
+
+a#btn_apple:hover {
+    background: linear-gradient(135deg,  #57b6ff 0%,#da8ffe 27%,#fb7890 71%,#ffcb5b 99%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+}
+
+a#btn_apple i:before {
+    display: initial;
+}
+
+/* THE NEW YORKER */
+
+a#btn_newyorker {
+    display: inline-block;
+    font-family: "lust-display-didone", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-decoration: none;
+    color:#000;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 16px 40px 0 40px;
+    border: 2px solid #000;
+    transition: all .5s;
+}
+
+a#btn_newyorker:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all .5s;
+}
+
+/* ST. JUDE'S */
+
+a#btn_stjude {
+    text-decoration: none;
+    margin-top: 65px;
+    margin: auto;
+    align-items: center;
+    transition: all .4s ease-in-out;
+}
+
+a#btn_stjude img {
+    display: block;
+    max-width: 200px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+
+a#btn_stjude span {
+    display: block;
+    font-size: 30px;
+    max-width: 250px;
+    font-family: "Tiro Bangla", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+a#btn_stjude:hover > span {
+    color: rgb(128, 129, 133);
+    transition: all .4s ease-in-out;
+}
+
+a#btn_stjude span:hover {
+    color: rgb(128, 129, 133);
+    transition: all .4s ease-in-out;
+}
+
+/* CARTOON NETWORK */
+
+a#btn_cn {
+    display: inline-block;
+    margin: auto;
+    margin-top: 80px;
+}
+
+a#btn_cn img {
+    max-width: 230px;
+    height: auto;
+    transition: transform .8s ease-in-out;
+}
+
+a#btn_cn img:hover {
+    transform: rotate(360deg);
+}
+
+/* HASBRO */
+
+a#btn_hasbro {
+    display: inline-block;
+    font-family: "Modak", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 70px;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 40px 10px 40px 10px;
+    background-color: #00959b;
+}
+
+a#btn_hasbro:hover {
+    animation: wiggle 0.25s;
+    animation-iteration-count: 4;
+    transition: all .2s ease-in-out;
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(5deg); }
+   25% { transform: rotate(10deg); }
+   50% { transform: rotate(5deg); }
+   75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* LYFT */
+
+a#btn_lyft {
+    display: block;
+    font-size: 90px;
+    margin: auto;
+    margin-top: 60px;
+    text-decoration: none;
+    color: rgb(234, 11, 140);
+    transition: all .3s;
+}
+
+a#btn_lyft:hover {
+    color: rgb(19, 17, 54);
+}
+
+/* PASTARIA */
+
+a#btn_pastaria {
+    display: block;
+    margin: auto;
+    margin-top: 75px;
+    font-size: 60px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color:#054046;
+    color: rgb(243, 71, 41);
+    transition: all .4s ease-in-out;
+    text-align: center;
+    line-height: 100px;
+}
+
+/* a#btn_pastaria::before {
+    content: "";
+    background-image: url("css/images/pastariaimg.png");
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    z-index: 1;
+} */
+
+a#btn_pastaria:hover {
+    color: #759a9d;
+    -webkit-box-shadow: 4px 5px 21px 1px rgba(0,0,0,0.42); 
+    box-shadow: 4px 5px 21px 1px rgba(0,0,0,0.42);
+}
+
+/* MOO */
+
+a#btn_moo {
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    font-family: "urbane-rounded", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    text-decoration: none;
+    color: #12a575;
+}
+
+a#btn_moo i {
+    position: relative;
+    top: -200px;
+    transition: transform 0.8s ease-in-out;
+}
+
+a#btn_moo:hover i {
+    position: relative;
+    transform: translate(0, 200px);
+}
+
+/* MISSOURI BOTANICAL GARDENS */
+
+a#btn_mbg img {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 65px;
+    height: 125px;
+    width: auto;
+    box-sizing: border-box;
+    border-radius: 60px;
+    transition: all .3s ease-in-out;
+}
+
+a#btn_mbg img:hover {
+    -webkit-box-shadow: 0px 0px 0px 13px rgba(137,171,68,0.75); 
+    box-shadow: 0px 0px 0px 13px rgba(137,171,68,0.75);
+}
